@@ -26,3 +26,7 @@ func Hash(s string) string {
 
  return fmt.Sprintf("%x", hash)
 }
+
+func Map(value int64) int {
+ return int((4 * value) / 15)
+}
