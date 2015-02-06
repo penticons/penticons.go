@@ -81,14 +81,15 @@ func (o *Octicon) reflect_tiles() {
 }
 
 func (o *Octicon) place_tiles() {
- padding := 5
- i := 0
+ padding := utils.Padding
+ size := utils.Size
 
+ i := 0
  for i < 25 {
   args := make(map[string]string)
   args["fill"] = o.TileColor[i]
 
-  o.Svg.Rect(padding + (35*(i/5)), padding + (35*(i%5)), 30, 30, args)
+  o.Svg.Rect(padding + ((size + padding) * (i/5)), padding + ((size + padding) * (i%5)), size, size, args)
   i = i + 1
  }
 }

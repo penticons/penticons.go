@@ -7,6 +7,8 @@ import (
 
 var Colors [5]string
 var Background string
+var Padding int
+var Size int
 
 func init() {
  Colors[0] = "#eeeeee"
@@ -16,6 +18,9 @@ func init() {
  Colors[4] = "#1e6823"
 
  Background = "#fefefe"
+
+ Padding = 5
+ Size = 30
 }
 
 func Hash(s string) string {
