@@ -28,3 +28,18 @@ func (s *SVG) footer() string {
 func (s *SVG) String() string {
  return s.header() + s.svg_string + s.footer()
 }
+
+func (s *SVG) Rect(x, y, w, h int, args map[string]string) {
+ rect_str := fmt.Sprintf("<rect x='%v' y='%v' width='%v' height='%v' %s />", x, y, w, h, s.Write_args(args))
+ s.svg_string += rect_str
+}
+
+func (s *SVG) Write_args(args map[string]string) string {
+ str := ""
+
+ for k, v := range args {
+  str += fmt.Sprintf("%s='%s' ", k, v)
+ }
+
+ return str
+}

@@ -9,7 +9,7 @@ import (
 func Generate(arg string) string {
  o := octicon.New(arg)
 
- return o.Hash
+ return o.Svg_string()
 }
 
 func Base64_string(arg string) string {
