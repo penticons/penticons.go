@@ -2,8 +2,10 @@ penticons.go
 ============
 > An implementation of Penticons in [go](http://golang.org/) programming language.
 
+Identicons similar to GitHub's contribution activity calendar.
 
-[![GoDoc](https://godoc.org/github.com/penticons/penticons.go?status.svg)](http://godoc.org/github.com/penticons/penticon.go)
+
+[![GoDoc](https://godoc.org/github.com/penticons/penticons.go?status.svg)](http://godoc.org/github.com/penticons/penticons.go)
 
 ```go
 package main
