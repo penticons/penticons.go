@@ -5,7 +5,7 @@ package penticons
 import (
 	"encoding/base64"
 	"fmt"
-	"github.com/pravj/penticons.go/penticon"
+	"github.com/penticons/penticons.go/penticon"
 )
 
 // Returns identicons's SVG string representation

@@ -3,8 +3,8 @@ package penticon
 
 import (
 	"strconv"
-	"github.com/pravj/penticons.go/svg"
-	"github.com/pravj/penticons.go/utils"
+	"github.com/penticons/penticons.go/svg"
+	"github.com/penticons/penticons.go/utils"
 )
 
 // Penticon struct that contains Hash value, Tile representation and SVG object for penticon
