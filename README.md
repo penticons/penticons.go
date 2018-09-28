@@ -22,7 +22,7 @@ func main() {
 }
 ```
 
-####Installation
+#### Installation
 
 ⚠ Use the alias “penticons-go” to use Penticons in your Go code:
 
@@ -30,7 +30,7 @@ func main() {
 go get github.com/penticons/penticons-go
 ```
 
-####API
+#### API
 
 ```go
 func Generate(arg string) string
@@ -50,5 +50,6 @@ func Uri_image(arg string) string
 
 Returns URI image representatino of the penticon for the string argument *arg*
 
-####LICENSE
+#### LICENSE
+
 Penticons implementations are released under the MIT license.
